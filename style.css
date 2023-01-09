@@ -1,0 +1,201 @@
+body{
+    font-family:  arial sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: teal;
+    color: white;
+    display:flex;
+    justify-content: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul{
+    display:flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    margin:0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+
+section h1{
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+section p{
+    font-family: sans-serif;
+    font-weight: 100px;
+    line-height: 0.75cm;
+}
+
+header{
+    background-image: url(/img/tech1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+}
+footer{
+    font-family: arial sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work h1{
+   font-size: 90px;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+}
+.work::before{
+    content: "";
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+.work h1{
+flex-basis: 50%;
+text-align: left;
+}
+
+.work p {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.about-me h1{
+    font-size: 90px;
+}
+.about-me{
+    display: flex;
+    align-items: center;
+}
+
+.about-me::before{
+    content: "";
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin: 0 1rem;
+}
+
+.about-me h1{
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.about-me p{
+    flex-basis: 50%;
+    text-align: center;
+}
+.kam-odel{
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+}
+.allText{
+    border: 2px solid #333333;
+    border-radius: 5px;
+    padding:10px;
+    background-color: #cccf;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+.contact h1{
+    font-size: 90px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact::before{
+    content: "";
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+.contact h1{
+    flex-basis: 50%;
+    text-align: left;
+}
+.contact p{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.resume h1{
+font-size: 90px;
+}
+.resume{
+    display: flex;
+    align-items: center;
+}
+.resume::before{
+    content: "";
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+.resume h1{
+    flex-basis: 50%;
+    text-align: left;
+}
+.resume p{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px){
+    header , section, footer {
+        width: 100vh;
+        float: none;
+    }
+
+    nav main {
+        width: 100%;
+        float: none;
+    }
+    
+}
+
+.creative:hover{
+    cursor: pointer;
+    color: #333333;
+}
+/*
+@media screen and (max-width: 768px){
+    header, section, footer{
+        width: 100vh;
+        float: none;
+    }
+
+    nav main {
+        width: 100%;
+        float: none;
+        
+    };
+}
