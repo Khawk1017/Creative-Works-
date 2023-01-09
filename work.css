@@ -1,0 +1,71 @@
+body{
+    font-family: arial sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: teal;
+    color: white;
+    display:flex;
+    justify-content: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    background-image: url(/img/what-is-coding-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+}
+header h1:hover{
+    color: #333333;
+    cursor: pointer;
+}
+.panel{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 10px;
+}
+
+.panel img{
+    border: 2px solid #333333;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    float: right;
+    width: calc(100% / 3 - 4px);
+    height: 200px;
+    margin: 2px;
+    object-fit: contain;
+}
+
+footer{
+    font-family: arial sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.backContainer{
+    margin: 20px;
+    font-size: 25px;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    header, main, footer{
+        width:100vh;
+        float:none;
+    }
+}

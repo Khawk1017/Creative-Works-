@@ -48,7 +48,7 @@ section p{
 }
 
 header{
-    background-image: url(/img/tech1.jpeg);
+    background-image: url(/img/what-is-coding-1024x683.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size:cover;
@@ -59,6 +59,8 @@ footer{
     text-align: center;
     background-color: #ccc;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .work h1{
