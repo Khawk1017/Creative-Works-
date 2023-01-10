@@ -18,5 +18,5 @@ With my attempt to recreate the mock up I :
 ![About-images](/Creative-Works-redo/img/Creative2.jpeg)
 
 
-# Examples 
+# Examples
 - To navigate through the page is really staright forward each link at the top of the page should be accessible and once clicked will move to the labeled section of the page.
