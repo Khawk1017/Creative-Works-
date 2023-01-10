@@ -13,7 +13,9 @@ With my attempt to recreate the mock up I :
 - basic footer containing copywright information located at the bottom of the webpage
 - @media query with a max width of 600px which is a average screen size for smartphones so that they display would reamin tbhe same when viewing from a different device.
 
-![WebPage-Screenshot](/img/updatedSC.jpeg)
+![Header-Screenshot](/Creative-Works-redo/img/updatedSC.jpeg)
+![Footer-Screenshot](/Creative-Works-redo/img/Creative1.jpeg)
+![About-images](/Creative-Works-redo/img/Creative2.jpeg)
 
 
 # Examples 
